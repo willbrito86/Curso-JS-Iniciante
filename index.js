@@ -1,4 +1,10 @@
-let nome = "William";
-const idade = 34
- 
-console.log ("Meu nome é", nome, "e eu tenho", idade, "anos");
+// Objetos
+
+const aluno = {
+  nome: "William",
+  idade: 34,
+  altura: 1.81,
+  peso: 90
+};
+
+console.log (aluno.nome);
